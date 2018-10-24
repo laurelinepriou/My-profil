@@ -54,7 +54,7 @@ p {
 
 /*Traitement des Divs*/
 .naviguation {
-	background-color: #222324;
+	background-color: #131313;
 	position: fixed;
 	margin:auto;
 	width: 100%;
@@ -95,7 +95,7 @@ p {
 .cover-image {
 	background-image: url(Images/header.jpg);
     background-size: cover;
-    background-size: contain;
+    /*background-size: contain;*/
 }
 
 #photo-de-loulou {
@@ -216,3 +216,85 @@ p {
 	font-size: 25px;
 	margin:0px;
 }
+
+/*Responsive code*/
+@media (max-width: 960px) {
+	.content {
+		width: 700px;
+	}
+
+	#king-size {
+		width: 650px;
+	}
+
+	.graphics {
+		width: 700px;
+	}
+
+	.graph1 img {
+		width: 300px;
+	}
+
+
+}
+
+@media (max-width: 720px) {
+	.content {
+		width: 500px;
+	}
+
+	#king-size {
+		width: 450px;
+	}
+
+	.graphics {
+		width: 500px;
+	}
+
+	.graph1 img {
+		width: 150px;
+	}
+
+
+}
+
+@media (max-width: 540px) {
+	.header{
+		width: 300px;
+	}
+
+	@media (max-width: 720px) {
+	.content {
+		width: 500px;
+	}
+
+	#king-size {
+		width: 450px;
+	}
+
+	.graphics {
+		width: 500px;
+	}
+
+	.graph1 img {
+		width: 150px;
+	}
+
+	#photo-de-loulou {
+		width: 100px;
+	}
+
+	.content {
+		width: 400px;
+	}
+
+	#king-size {
+		width: 350px;
+	}
+
+	.graphics {
+		width: 400px;
+	}
+
+}
+
